@@ -1,0 +1,51 @@
+.cabecalho{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 4.4rem;
+}
+
+.cabecalho-img{
+  max-width: 9.77rem;
+}
+
+
+.cabecalho-principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+ 
+}
+
+.cabecalho-item{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #ffff;
+}
+
+
+.cabecalho-item:hover{
+  color: rgb(229, 245, 14);
+  font-size: 2rem;
+}
+
+.cabecalho-button{
+width: 14.1rem;
+height: 4.3rem;
+background: #FFFFFF;
+border-radius: 0.8rem;
+font-family: 'Manrope', sans-serif;
+font-size: 1.6rem;
+font-weight: 800;
+}
+
+.cabecalho-button:hover{
+  background:rgb(252, 228, 200);
+  font-size: 1.8rem;
+  cursor:grab;
+  color: rgb(112, 89, 240);
+}
+
